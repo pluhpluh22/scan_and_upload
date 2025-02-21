@@ -64,3 +64,4 @@ if __name__ == "__main__":
     # Optionally, you can save the key securely, for example:
     with open("fernet_key.key", "wb") as key_file:
         key_file.write(key)
+input("Press enter to exit.")
